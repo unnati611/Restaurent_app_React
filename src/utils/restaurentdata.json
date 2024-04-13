@@ -1,0 +1,399 @@
+{
+    "id": 1,
+    "name": "Demo Restaurant",
+    "shortDescription": "Multi cuisine restaurant situated in the heart of the city",
+    "fullDescription": "Multi cuisine restaurant situated in the heart of the city",
+    "metaDescription": "Multi cuisine restaurant situated in the heart of the city",
+    "logo": "images/logo.jpg",
+    "priceRange": "250 for Two",
+    "hours": {
+        "open": "07:00",
+        "close": "20:00"
+    },
+    "phone": {
+        "general": "+918197628777",
+        "whatsapp": "918762582739"
+    },
+    "social": [
+        {
+            "name": "facebook",
+            "link": "https://www.facebook.com/MyYenuMenu/"
+        },
+        {
+            "name": "instagram",
+            "link": "https://www.instagram.com/yenumenu/"
+        },
+        {
+            "name": "youtube",
+            "link": "youtube.com"
+        },
+        {
+            "name": "twitter",
+            "link": "twitter.com"
+        },
+        {
+            "name": "linkedin",
+            "link": "linkedin.com"
+        }
+    ],
+    "address": {
+        "buildingName": "2nd Floor, Arogya Soudha",
+        "streetAddress": "",
+        "landmark": "Opposite Kulshekar Post Office",
+        "area": "Kulshekar",
+        "city": "Mangaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postalCode": "575001"
+    },
+    "services": [
+        "Dine-in",
+        "Takeaway",
+        "Delivery"
+    ],
+    "cuisines": [
+        "South Indian Vegetarian",
+        "North Indian Vegetarian"
+    ],
+    "gallery": [
+        "images/gallery/1.webp",
+        "images/gallery/2.webp",
+        "images/gallery/3.webp",
+        "images/gallery/4.webp",
+        "images/gallery/5.webp"
+    ],
+    "payment": {
+        "qrCode": "https://w7.pngwing.com/pngs/289/293/png-transparent-qr-code-business-cards-barcode-coupon-test-box-angle-text-rectangle.png",
+        "type": [
+            {
+                "name": "googlepay",
+                "link": "yenumenu@icici",
+                "img" :"https://cdn1.iconfinder.com/data/icons/logos-brands-in-colors/436/Google_Pay_GPay_Logo-512.png"
+            },
+            {
+                "name": "phonepe",
+                "link": "yenumenu@icici",
+                "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8qU9gO8H1fswfdefNO8M-pNv68bbwj5m4fo1D75STAvr0KrBV6vSEOncoFqyubOoCHpE&usqp=CAU"
+            },
+            {
+                "name": "amazonpay",
+                "link": "yenumenu@icici",
+                "img":"https://www.logo.wine/a/logo/Amazon_Pay/Amazon_Pay-Logo.wine.svg"
+                
+            },
+            {
+                "name": "paytm",
+                "link": "yenumenu@icici",
+                "img":"https://logowik.com/content/uploads/images/paytm8487.jpg"
+            }
+        ]
+    },
+    "tax": {
+        "status": true,
+        "name": "GST",
+        "included": true,
+        "rate": 5
+    },
+    "currency": {
+        "symbol": "Rs",
+        "space": 3
+    },
+    "itemsCategory": [
+        {
+            "categoryName": "Beverages",
+            "categoryItems": [
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Tea",
+                    "itemPrice": 25,
+                    "itemDescription": "A perfect blend of loose leaf Ceylon tea, creamy milk, and natural, caramel-y sweetness.",
+                    "itemImage": "tea.webp",
+                    "itemMeta": "Spicy",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0
+
+                },
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Coffee",
+                    "itemPrice": 25,
+                    "itemDescription": "Made from the best coffee grounds, this cup of joe will kick start your day!",
+                    "itemImage": "coffee.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Vegan",
+                    "itemName": "Orange Juice",
+                    "itemPrice": 30,
+                    "itemDescription": "Orange juice without any added sugars or preservatives. ",
+                    "itemImage": "orange-juice.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Vegan",
+                    "itemName": "Apple Juice",
+                    "itemPrice": 35,
+                    "itemDescription": "Freshly squeezed Apple juice that is great for your wellbeing.",
+                    "itemImage": "apple-juice.webp",
+                    "itemMeta": "Bestseller",
+                    "itemAvailable": true,
+                    "itemFeatured": true
+,
+  "qty":0               },
+                {
+                    "itemType": "Vegan",
+                    "itemName": "Watermelon Juice",
+                    "itemPrice": 40,
+                    "itemDescription": "Light and refreshing Watermelon drink without added sugar or preservatives",
+                    "itemImage": "Watermelon-Juice.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                }
+            ]
+        },
+        {
+            "categoryName": "Starters",
+            "categoryItems": [
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Mixed Veggie Platter",
+                    "itemPrice": 100,
+                    "itemDescription": "A plate full of healthy veggies cooked in low-fat butter.",
+                    "itemImage": "Mixed-Veggie-Platter.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Non Vegetarian",
+                    "itemName": "Fried Chicken",
+                    "itemPrice": 150,
+                    "itemDescription": "Made from our signature coating and spices.",
+                    "itemImage": "Fried-Chicken.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Non Vegetarian",
+                    "itemName": "Steamed Momos",
+                    "itemPrice": 130,
+                    "itemDescription": "Steamed Momos - 8 pieces that will feed two persons.",
+                    "itemImage": "Steamed-Momos.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Non Vegetarian",
+                    "itemName": "Fried Momos",
+                    "itemPrice": 150,
+                    "itemDescription": "Fried Momos  - 8 pieces that will feed two persons.",
+                    "itemImage": "Fried-Momos.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": true
+,
+  "qty":0               },
+                {
+                    "itemType": "Non Vegetarian",
+                    "itemName": "Chicken Manchurian",
+                    "itemPrice": 150,
+                    "itemDescription": "Tender and juicy Chicken friend in the manchurain style.",
+                    "itemImage": "Chicken-Manchurian.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                }
+            ]
+        },
+        {
+            "categoryName": "Main Course",
+            "categoryItems": [
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Panner Tikka Masala",
+                    "itemPrice": 175,
+                    "itemDescription": "Tickle your tastebuds with our signature panner dish",
+                    "itemImage": "Panner-Tikka-Masala.webp",
+                    "itemMeta": "Spicy",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Panner Butter Masala",
+                    "itemPrice": 190,
+                    "itemDescription": "Goodness of butter and paneer. Pairs well with roti or paranta.",
+                    "itemImage": "Panner-Butter-Masala.webp",
+                    "itemMeta": "Bestseller",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Panner Manchurian",
+                    "itemPrice": 150,
+                    "itemDescription": "Indulge in the goodness of paneer that is cooked in Manchurian style",
+                    "itemImage": "Panner-Manchurian.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Non Vegetarian",
+                    "itemName": "Garlic Chicken",
+                    "itemPrice": 250,
+                    "itemDescription": "Sweet and tangy Chicken tossed with garlic and other herbs",
+                    "itemImage": "Garlic-Chicken.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": true
+,
+  "qty":0               },
+                {
+                    "itemType": "Non Vegetarian",
+                    "itemName": "Butter Chicken",
+                    "itemPrice": 300,
+                    "itemDescription": "Chicken that is simmered in a rich butter and cream gravy.",
+                    "itemImage": "Butter-Chicken.webp",
+                    "itemMeta": "Bestseller",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Non Vegetarian",
+                    "itemName": "Chicken Vindaloo",
+                    "itemPrice": 200,
+                    "itemDescription": "Juicy Chicken cuts marinated in vinegar, wine and garlic.",
+                    "itemImage": "Chicken-Vindaloo.webp",
+                    "itemMeta": "Spicy",
+                    "itemAvailable": true,
+                    "itemFeatured": true
+,
+  "qty":0               }
+            ]
+        },
+        {
+            "categoryName": "Soups",
+            "categoryItems": [
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Tomato",
+                    "itemPrice": 75,
+                    "itemDescription": "Smooth, sweet and savoury tomato soup.",
+                    "itemImage": "Tomato-Soup.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Basil Soup",
+                    "itemPrice": 75,
+                    "itemDescription": "Made of a broth consisting of tomatoes, garlic and basil.",
+                    "itemImage": "Basil-Soup.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": true
+,
+  "qty":0               },
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Onion Soup",
+                    "itemPrice": 60,
+                    "itemDescription": "Caramelized onions served with fried bread sticks.",
+                    "itemImage": "Onion-Soup.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Non Vegetarian",
+                    "itemName": "Chicken Clear Soup",
+                    "itemPrice": 75,
+                    "itemDescription": "A mild soup with cubes of Chicken.",
+                    "itemImage": "Chicken-Clear-Soup.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": true
+,
+  "qty":0               },
+                {
+                    "itemType": "Non Vegetarian",
+                    "itemName": "Chicken Manchow Soup",
+                    "itemPrice": 100,
+                    "itemDescription": "A highly popular fusion soup belonging to the Indo Chinese Cuisine",
+                    "itemImage": "Chicken-Manchow-Soup.webp",
+                    "itemMeta": "Spicy",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                }
+            ]
+        },
+        {
+            "categoryName": "Desserts",
+            "categoryItems": [
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Apple Pie",
+                    "itemPrice": 100,
+                    "itemDescription": "Goodness of apples and ice cream with a sprinkle of cinnamon.",
+                    "itemImage": "Apple-Pie.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": true
+,
+  "qty":0               },
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Malai Kulfi",
+                    "itemPrice": 125,
+                    "itemDescription": "Malai kulfi decked with dry fruits and kesar.",
+                    "itemImage": "Malai-Kulfi.webp",
+                    "itemMeta": "New!",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Gulab Jamun",
+                    "itemPrice": 75,
+                    "itemDescription": "Soft delicious flour balls dipped in sugary goodness.",
+                    "itemImage": "Gulab-Jamun.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Lemon Tart",
+                    "itemPrice": 100,
+                    "itemDescription": "Sinful, rich and yummy - the perfect way finish to a meal",
+                    "itemImage": "Lemon-Tart.webp",
+                    "itemMeta": "",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                },
+                {
+                    "itemType": "Vegetarian",
+                    "itemName": "Brownie",
+                    "itemPrice": 80,
+                    "itemDescription": "Insanely rich, fudgy and chewy flavour.",
+                    "itemImage": "Brownie.webp",
+                    "itemMeta": "New!",
+                    "itemAvailable": true,
+                    "itemFeatured": false,
+                      "qty":0                }
+            ]
+        }
+    ]
+}
+

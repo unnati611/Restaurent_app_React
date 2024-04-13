@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.top-banner {
+    width: 100%;
+    height: 90vh;
+    background: url('https://raw.githubusercontent.com/unnati611/Food_Application/main/images/bg/bg-1.jpg') no-repeat center;
+    background-size: cover;
+    padding: 6.875rem 0 9.375rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    color: var(--primary-color);
+    max-width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root {
+    --primary-color: rgb(136, 20, 30);
+    --secondary-color: rgb(95, 11, 18);
+    --third-color: rgb(214, 126, 18);
+    --white-color: white;
+    --text-color: gRAY;
+    --text-gray: rgb(197, 196, 196);
+    --black-color: black;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Quicksand', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+html {
+    scroll-behavior: smooth;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#home h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--secondary-color);
+}
+
+.main-btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: var(--primary-color);
+    border: 0.1875rem solid var(--primary-color);
+    color: var(--white-color);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0/19%);
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+}
+
+.main-btn:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+#home p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 1.75rem;
+    letter-spacing: 1px;
 }
