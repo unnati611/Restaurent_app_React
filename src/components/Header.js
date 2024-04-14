@@ -11,7 +11,7 @@ const Header = () => {
         <img
           src="https://png.pngtree.com/png-clipart/20200727/original/pngtree-restaurant-logo-design-vector-template-png-image_5441058.jpg"
           alt="Logo"
-          className="h-12"
+          className="h-14"
         />
         <div className="lg:w-5/12 text-center lg:text-left">
           <h1 className="font-bold text-orange-800 pt-4 m-0 lg:m-4 text-3xl">

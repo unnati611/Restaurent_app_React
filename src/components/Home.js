@@ -1,6 +1,15 @@
 import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
+const Name = ({ name, children }) => {
+  return (
+    <div>
+      <p>
+        {name} {children}
+      </p>
+    </div>
+  );
+};
 
 const Home = () => {
   return (
@@ -25,6 +34,9 @@ const Home = () => {
                       <i className="fa-solid fa-basket-shopping ps-3"></i>
                     </button>
                   </Link>
+                  <Name name={"unnati"}>
+                    <p>Shah</p>
+                  </Name>
                 </div>
               </div>
             </div>

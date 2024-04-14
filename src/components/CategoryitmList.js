@@ -83,7 +83,7 @@ const CategoryitmList = ({ openIndex, index, items }) => {
                   src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg"
                   alt=""
                 />
-                <div className="p-2 md:mt-0 absolute md:relative bg-gray-300 rounded lg:w-full md:w-32 sm:w-24 mt-28 ">
+                <div className="p-2 md:mt-0 absolute md:relative bg-gray-300 rounded lg:w-full md:w-32 sm:w-20 mt-28 ">
                   {getqty(menu) === 0 && (
                     <button
                       className="font-bold px-10"
@@ -93,7 +93,7 @@ const CategoryitmList = ({ openIndex, index, items }) => {
                     </button>
                   )}
                   {getqty(menu) !== 0 && (
-                    <div className="flex justify-between sm: w-24">
+                    <div className="flex justify-between sm: w-20">
                       <div
                         className="font-bold cursor-pointer sm:"
                         onClick={() => handlRemoveitem(menu, itemIndex)}

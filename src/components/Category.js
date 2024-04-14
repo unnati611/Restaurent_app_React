@@ -3,7 +3,7 @@ import DATA from "../utils/restaurentdata.json";
 
 const Category = ({ onClick }) => {
   return (
-    <div className="sticky top-0 flex justify-center items-center flex-wrap w-full overflow-auto">
+    <div className="sticky top-0 flex justify-center items-center bg-white z-10 flex-wrap w-full overflow-auto">
       {DATA.itemsCategory.map((item, index) => {
         return (
           <button

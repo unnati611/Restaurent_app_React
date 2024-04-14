@@ -30,7 +30,7 @@ const OrderForm = () => {
         </p>
       )}
       <div className="flex justify-between">
-        <label className=" m-2 font-bold text-2xl">Contact Number</label>
+        <label className=" m-2 font-bold text-2xl">Contact </label>
         <input
           type="text"
           placeholder="Contact Number"
