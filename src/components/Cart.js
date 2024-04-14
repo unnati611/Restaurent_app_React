@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import {
-  removeItem,
+  // removeItem,
   errorNameinput,
   errorContactinput,
   errorAddressinput,
@@ -16,9 +16,9 @@ import {} from "../";
 const Cart = () => {
   const cartItems = useSelector((store) => store.cart.items);
   const dispatch = useDispatch();
-  const handledelete = (item, index) => {
-    dispatch(removeItem(item, index));
-  };
+  // const handledelete = (item, index) => {
+  //   dispatch(removeItem(item, index));
+  // };
   const nameInputItem = useSelector((store) => store.cart.nameInput);
   const contactInputItem = useSelector((store) => store.cart.contactInput);
   const addressInputItem = useSelector((store) => store.cart.addressInput);
@@ -29,6 +29,7 @@ const Cart = () => {
     }
     if (nameInputItem.value === "") {
       dispatch(errorNameinput(true));
+      return;
     } else {
       dispatch(errorNameinput(false));
     }
@@ -40,9 +41,9 @@ const Cart = () => {
       : dispatch(errorAddressinput(false));
 
     if (
-      nameInputItem.isError === false &&
-      contactInputItem.isError === false &&
-      addressInputItem.isError === false
+      nameInputItem.value !== "" &&
+      contactInputItem.value !== "" &&
+      addressInputItem.value !== ""
     ) {
       alert("Order palced Successfully");
     } else {
@@ -61,8 +62,6 @@ const Cart = () => {
 
   const handlRemoveitem = (item) => {
     //dispath an action
-    // cartItems.indexOf(item.itemName);
-    debugger;
     const addedItem = cartItems.findIndex(
       (name) => name.itemName === item.itemName
     );
@@ -71,7 +70,6 @@ const Cart = () => {
   };
   const handlAdditem = (item) => {
     //dispath an action
-    // cartItems.indexOf(item.itemName);
 
     const addedItem = cartItems.findIndex(
       (name) => name.itemName === item.itemName
@@ -83,7 +81,6 @@ const Cart = () => {
     }
   };
 
-  console.log(cartItems);
   return (
     <div className="flex items-center flex-col w-full justify-center md:w-full md:justify-start">
       {cartItems.length === 0 && (

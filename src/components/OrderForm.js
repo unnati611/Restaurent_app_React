@@ -7,7 +7,7 @@ import { updateNameinput } from "../utils/cartSlice";
 const OrderForm = () => {
   const dispatch = useDispatch();
   const nameError = useSelector((store) => store.cart.nameInput.isError);
-  console.log(nameError);
+
   const addressError = useSelector((store) => store.cart.addressInput.isError);
   const contactError = useSelector((store) => store.cart.contactInput.isError);
 

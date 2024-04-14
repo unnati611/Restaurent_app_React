@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 
 const Header = () => {
   const cartItems = useSelector((store) => store.cart.items);
-  console.log(cartItems);
+
   return (
     <div>
       <div className="lg:h-28 flex border flex-wrap items-center justify-between px-4 lg:px-0">

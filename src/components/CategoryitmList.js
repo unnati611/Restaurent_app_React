@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 const CategoryitmList = ({ openIndex, index, items }) => {
   const dispatch = useDispatch();
   const cartItems = useSelector((store) => store.cart.items);
-  console.log(cartItems);
+
   const handlAdditem = (item) => {
     //dispath an action
     // cartItems.indexOf(item.itemName);
@@ -21,8 +21,6 @@ const CategoryitmList = ({ openIndex, index, items }) => {
   };
   const handlRemoveitem = (item) => {
     //dispath an action
-    // cartItems.indexOf(item.itemName);
-    debugger;
     const addedItem = cartItems.findIndex(
       (name) => name.itemName === item.itemName
     );
@@ -47,7 +45,7 @@ const CategoryitmList = ({ openIndex, index, items }) => {
           {items.categoryItems.map((menu, itemIndex) => (
             <div
               key={itemIndex}
-              className="flex  md:flex-row border w-full m-2"
+              className="flex  md:flex-row border w-full p-2"
             >
               <div className="p-2 m-2 w-full md:w-9/12">
                 <h3>
@@ -83,17 +81,17 @@ const CategoryitmList = ({ openIndex, index, items }) => {
                   src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg"
                   alt=""
                 />
-                <div className="p-2 md:mt-0 absolute md:relative bg-gray-300 rounded lg:w-full md:w-32 sm:w-20 mt-28 ">
+                <div className="p-2 md:mt-0 md:relative bg-gray-300 rounded w-20 lg:w-full md:w-32 ">
                   {getqty(menu) === 0 && (
                     <button
-                      className="font-bold px-10"
+                      className="font-bold w-full"
                       onClick={() => handlAdditem(menu, itemIndex)}
                     >
                       Add
                     </button>
                   )}
                   {getqty(menu) !== 0 && (
-                    <div className="flex justify-between sm: w-20">
+                    <div className="flex justify-between w-full">
                       <div
                         className="font-bold cursor-pointer sm:"
                         onClick={() => handlRemoveitem(menu, itemIndex)}
