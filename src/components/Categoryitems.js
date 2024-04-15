@@ -14,6 +14,7 @@ const Categoryitems = ({ categorySelectedIndex }) => {
       });
       setopenIndex(categorySelectedIndex);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [categorySelectedIndex]);
 
   const toggleAccodion = (index) => {
