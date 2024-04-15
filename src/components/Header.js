@@ -20,23 +20,23 @@ const Header = () => {
         </div>
         <ul className="flex justify-end w-full lg:w-auto">
           <li className="font-bold text-orange-800 p-4 m-0 lg:m-4 text-lg">
-            <Link to="/Restaurent_app_React/">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li className="font-bold text-orange-800 p-4 m-0 lg:m-4 text-lg">
-            <Link to="/Restaurent_app_React/menu">Menu</Link>
+            <Link to="/menu">Menu</Link>
           </li>
           <li className="font-bold text-orange-800 p-4 m-0 lg:m-4 text-lg">
-            <Link to="/Restaurent_app_React/about">About us</Link>
+            <Link to="/about">About us</Link>
           </li>
           <li className="font-bold text-orange-800 p-4 m-0 lg:m-4 text-lg">
-            <Link to="/Restaurent_app_React/payus">Pay us</Link>
+            <Link to="/payus">Pay us</Link>
           </li>
           <li className="relative font-bold text-orange-800 p-4 m-0 lg:m-4 text-lg">
             <div className="absolute h-7 w-7 top-0 right-0 flex items-center justify-center bg-transparent">
               <p className="">{cartItems.length}</p>
             </div>
             <Link
-              to="/Restaurent_app_React/cart"
+              to="/cart"
               className="relative"
               style={{
                 color: "brown",

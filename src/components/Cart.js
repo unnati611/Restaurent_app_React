@@ -87,7 +87,7 @@ const Cart = () => {
         <div className="flex items-center w-7/12">
           <h1 className="p-2 m-2 font-bold text-3xl text-center">
             Oops !! Your Cart is Empty🙁! Go to Menu to Add Some Item😋
-            <Link to="/Restaurent_app_React/menu" className="main-btn m-2">
+            <Link to="/menu" className="main-btn m-2">
               Go😋
             </Link>
           </h1>
@@ -156,7 +156,7 @@ const Cart = () => {
       </div>
       <OrderForm />
       <div className="sticky bottom-0 flex p-2 m-2 w-full md:w-7/12  bg-white z-10 justify-between">
-        <Link to="/Restaurent_app_React/">
+        <Link to="/">
           <button className="main-btn">Go To Home Page</button>
         </Link>
         <button className="main-btn" onClick={handleValidation}>

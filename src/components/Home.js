@@ -19,7 +19,7 @@ const Home = () => {
                   the Ritz Hotel, London Typical hotel restaurant.
                 </p>
                 <div className="px-6">
-                  <Link to="/Restaurent_app_React/menu">
+                  <Link to="/menu">
                     <button className="px-6 m-2 main-btn ">
                       Order now
                       <i className="fa-solid fa-basket-shopping ps-3"></i>

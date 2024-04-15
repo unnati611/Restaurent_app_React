@@ -21,27 +21,27 @@ function App() {
 
 export const Approute = createBrowserRouter([
   {
-    path: "/Restaurent_app_React/",
+    path: "/",
     element: <App />,
     children: [
       {
-        path: "/Restaurent_app_React/menu",
+        path: "/menu",
         element: <Menu></Menu>,
       },
       {
-        path: "/Restaurent_app_React/",
+        path: "/",
         element: <Home />,
       },
       {
-        path: "/Restaurent_app_React/about",
+        path: "/about",
         element: <Aboutus></Aboutus>,
       },
       {
-        path: "/Restaurent_app_React/payus",
+        path: "/payus",
         element: <Payus></Payus>,
       },
       {
-        path: "/Restaurent_app_React/cart",
+        path: "/cart",
         element: <Cart></Cart>,
       },
     ],
