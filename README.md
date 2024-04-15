@@ -1,13 +1,13 @@
 # RestaurentMenu App
 
-https://unnati611.github.io/Restaurent_app_React
+[Visit Site](https://anand-res.netlify.app/)
 
 ## Pages / Features
 
-- Home Page : Branding Page
-- Menu Page :Restaurent Menu with add Item in Cart feature
-- About Page:Restaurent Details
-- Pay Us Page:restaurent Payment MEthods AND QRCODE .
+- Home Page: Branding Page
+- Menu Page: Restaurent Menu with add Item in Cart feature
+- About Page: Restaurent Details
+- Pay Us Page: Restaurent Payment MEthods AND QRCODE .
 - Cart Page: OrderFood Items With Total Bill Amount And Order Form
 
 ## Tech Stack
@@ -42,3 +42,8 @@ npm install
 ```bash
 npm start
 ```
+
+## 🔗 Follow Me
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://unnati611.github.io/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/unnati611)
