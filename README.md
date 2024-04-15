@@ -16,6 +16,13 @@ https://unnati611.github.io/Restaurent_app_React
 - Tailwind CSS
 - Redux
 
+# About Coding
+
+- The entire application is built in React.
+- It's responsible for all screens that you can use on your mobile phone.
+- using react-redux Library for Prop Drilling.
+- for Styling i used Tailwind css.
+
 ## How to use
 
 1. Clone the repo
